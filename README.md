@@ -1,16 +1,128 @@
-# React + Vite
+# 🌿 DermaVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Know Your Skin Better
 
-Currently, two official plugins are available:
+DermaVision is an AI-powered skin disease detection application designed to help users identify possible skin conditions through image analysis. The platform provides disease predictions, confidence scores, detailed information, skin care tips, and a user-friendly dashboard for tracking analyses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 Login & Signup Authentication UI
+- 🏠 Interactive Home Dashboard
+- 📸 Skin Image Upload
+- 🤖 AI Disease Prediction Result Screen
+- 📊 Confidence Score & Probability Distribution
+- 🩺 Detailed Disease Information
+- 📚 Skin Care Tips Section
+- 📜 Analysis History Tracking
+- 👤 User Profile Management
+- 🌙 Dark Mode Support
+- 🔔 Notification Popup
+- 📱 Fully Responsive Design
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🖼️ Application Screens
+
+- Splash Screen
+- Login Page
+- Signup Page
+- Home Dashboard
+- Upload Image Page
+- Result Analysis Page
+- Disease Details Page
+- History Page
+- Skin Care Tips Page
+- Profile Page
+- About Page
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- CSS3
+- React Router DOM
+- React Icons
+
+### Design
+- Figma
+- Responsive UI Design
+- Modern Medical Dashboard Layout
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── assets/
+│
+├── pages/
+│   ├── Splash.jsx
+│   ├── Login.jsx
+│   ├── SignUp.jsx
+│   ├── Home.jsx
+│   ├── Upload.jsx
+│   ├── Result.jsx
+│   ├── DiseaseDetails.jsx
+│   ├── History.jsx
+│   ├── Tips.jsx
+│   ├── Profile.jsx
+│   └── About.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/PurabhiPa11/DermaVision.git
+```
+
+Navigate to project folder:
+
+```bash
+cd DermaVision
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Enhancements
+
+- AI Model Integration
+- Real-Time Image Classification
+- Disease Severity Analysis
+- Doctor Recommendations
+- User Authentication Backend
+- Cloud Database Integration
+- Scan Report Downloads
+- Image History Storage
+
+---
+
+## 📄 License
+
+This project was developed for educational and internship purposes.
